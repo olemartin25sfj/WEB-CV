@@ -1,22 +1,9 @@
 // Footer med kontaktinfo, sosiale medier og ©-tekst
-import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => (
   <footer className="w-full glass bg-white/30 py-6 mt-12 text-center text-gray-600 border-t border-white/30 backdrop-blur">
     <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-2">
-      <a
-        href="mailto:epost@eksempel.no"
-        className="flex items-center gap-2 hover:text-primary"
-      >
-        <FaEnvelope /> epost@eksempel.no
-      </a>
-      <span className="hidden md:inline">|</span>
-      <a
-        href="tel:+4712345678"
-        className="flex items-center gap-2 hover:text-primary"
-      >
-        <FaPhone /> +47 12 34 56 78
-      </a>
       <span className="hidden md:inline">|</span>
       <a
         href="https://github.com/brukernavn"
@@ -37,7 +24,8 @@ const Footer = () => (
       </a>
     </div>
     <div className="text-xs">
-      © {new Date().getFullYear()} Mitt Navn. Alle rettigheter reservert.
+      © {new Date().getFullYear()} Ole Martin Snuggerud. Alle rettigheter
+      reservert.
     </div>
   </footer>
 );

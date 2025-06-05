@@ -13,13 +13,14 @@ const Hero = () => (
       height={200}
       className="rounded-lg mb-4 border-4 border-primary"
     />
-    <h1 className="text-3xl md:text-4xl font-bold mb-2">Mitt Navn</h1>
+    <h1 className="text-3xl md:text-4xl font-bold mb-2">
+      Ole Martin Snuggerud
+    </h1>
     <h2 className="text-lg md:text-xl text-primary font-semibold mb-4">
       Developer under development
     </h2>
     <p className="max-w-xl text-gray-700 mb-6">
-      Kort beskrivelse/profiltekst. Skriv noen linjer om deg selv, din erfaring
-      og hva du brenner for.
+      Kort tekst om meg og hva jeg brenner for.
     </p>
     <div className="flex gap-4">
       <a

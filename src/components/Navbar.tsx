@@ -1,4 +1,3 @@
-// Komponent for navigasjonsmeny (navbar) i henhold til kravspesifikasjonen
 import Link from "next/link";
 
 const Navbar = () => (
