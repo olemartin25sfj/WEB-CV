@@ -1,0 +1,38 @@
+// Hero-seksjon med navn, tittel, profiltekst, profilbilde og knapper
+import Image from "next/image";
+
+const Hero = () => (
+  <section
+    id="hjem"
+    className="flex flex-col items-center justify-center text-center py-12 px-4 bg-gray-50"
+  >
+    <Image
+      src="/profile.jpg" // Bytt ut med faktisk bilde senere
+      alt="Profilbilde"
+      width={120}
+      height={120}
+      className="rounded-full mb-4 border-4 border-primary"
+    />
+    <h1 className="text-3xl md:text-4xl font-bold mb-2">Mitt Navn</h1>
+    <h2 className="text-lg md:text-xl text-primary font-semibold mb-4">
+      Min profesjonelle tittel
+    </h2>
+    <p className="max-w-xl text-gray-700 mb-6">
+      Kort beskrivelse/profiltekst. Skriv noen linjer om deg selv, din erfaring
+      og hva du brenner for.
+    </p>
+    <div className="flex gap-4">
+      <a
+        href="#kontakt"
+        className="px-6 py-2 bg-primary text-white rounded shadow hover:bg-primary-dark transition"
+      >
+        Kontakt meg
+      </a>
+      <button className="px-6 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition">
+        Last ned CV
+      </button>
+    </div>
+  </section>
+);
+
+export default Hero;
