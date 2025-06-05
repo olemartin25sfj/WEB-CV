@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => (
   <section
     id="hjem"
-    className="flex flex-col items-center justify-center text-center py-12 px-4 bg-gray-50"
+    className="glass flex flex-col items-center justify-center text-center py-12 px-4 mt-8 mb-8 mx-auto max-w-2xl"
   >
     <Image
       src="/profile.jpg" // Bytt ut med faktisk bilde senere

@@ -2,7 +2,7 @@
 import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => (
-  <footer className="w-full bg-gray-100 py-6 mt-12 text-center text-gray-600">
+  <footer className="w-full glass bg-white/30 py-6 mt-12 text-center text-gray-600 border-t border-white/30 backdrop-blur">
     <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-2">
       <a
         href="mailto:epost@eksempel.no"
