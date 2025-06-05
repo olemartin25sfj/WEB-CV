@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -34,8 +35,8 @@ export default function Home() {
         {/* Prosjekt-liste */}
       </section>
       <section id="kontakt" className="glass max-w-3xl mx-auto py-12 px-4 mb-8">
-        <h2 className="text-2xl font-bold mb-4">Kontaktinformasjon</h2>
-        {/* Kontaktinfo eller skjema */}
+        <h2 className="text-2xl font-bold mb-4">Kontakt</h2>
+        <ContactForm />
       </section>
     </>
   );

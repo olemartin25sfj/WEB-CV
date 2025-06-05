@@ -7,15 +7,15 @@ const Hero = () => (
     className="glass flex flex-col items-center justify-center text-center py-12 px-4 mt-8 mb-8 mx-auto max-w-2xl"
   >
     <Image
-      src="/profile.jpg" // Bytt ut med faktisk bilde senere
+      src="/OleMartin-bnw.jpg"
       alt="Profilbilde"
-      width={120}
-      height={120}
-      className="rounded-full mb-4 border-4 border-primary"
+      width={200}
+      height={200}
+      className="rounded-lg mb-4 border-4 border-primary"
     />
     <h1 className="text-3xl md:text-4xl font-bold mb-2">Mitt Navn</h1>
     <h2 className="text-lg md:text-xl text-primary font-semibold mb-4">
-      Min profesjonelle tittel
+      Developer under development
     </h2>
     <p className="max-w-xl text-gray-700 mb-6">
       Kort beskrivelse/profiltekst. Skriv noen linjer om deg selv, din erfaring
