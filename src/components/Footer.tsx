@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-2">
       <span className="hidden md:inline">|</span>
       <a
-        href="https://github.com/brukernavn"
+        href="https://github.com/olemartin25sfj"
         target="_blank"
         rel="noopener"
         className="flex items-center gap-2 hover:text-primary"
